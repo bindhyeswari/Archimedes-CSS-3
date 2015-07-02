@@ -1,0 +1,14 @@
+$background-color: rgba(194, 79, 70, 0.89)
+
+body
+  background-color: $background-color
+  color: lighten($background-color, 30%)
+  font-size: 3em
+  div
+    background-color: green
+div
+  border-bottom: 10px solid darken($background-color, 20%)
+
+@for $i from 1 through 20
+  .swatch-#{$i}
+    width: 60px + $i

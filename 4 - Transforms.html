@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div.square {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            margin: 1em;
+            float: left;
+            transition: transform 500ms ease;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"]:checked + label + div {
+            transform:  translateX(500px) rotate(90deg) scale(2) ;
+        }
+
+        input[type="checkbox"] + label {
+            font: 200 1em 'Helvetica Neue', 'Segoe UI', 'Droid Sans', 'Helvetica';
+            outline: none;
+            border: 1px solid #eee;
+            padding: 0.35em 0.5em;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 0.35em 0.5em;
+            border-radius: 0.35em;
+
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt est et lectus scelerisque, nec aliquet nibh pulvinar. Sed rhoncus et tortor eget consectetur. Suspendisse potenti. Etiam aliquet purus vel nisl ultrices, vel rhoncus nulla auctor. Sed vitae neque dolor. Pellentesque cursus nisl sit amet hendrerit porttitor. Donec aliquet cursus diam, a rhoncus libero ultrices in. Sed eu placerat nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas aliquet lectus nec metus euismod egestas.
+
+Integer dapibus vulputate turpis, nec placerat sapien euismod sed. Praesent convallis erat nisl, eu lacinia nunc tempor eu. Suspendisse porttitor tortor vitae justo scelerisque hendrerit et eu massa. Cras id orci laoreet, molestie ex vulputate, euismod nisl. Aliquam eget interdum justo. Praesent vulputate sapien vitae tellus pulvinar molestie. Etiam placerat metus tellus, at euismod dolor tincidunt non. In hac habitasse platea dictumst. Curabitur malesuada dictum felis eu fringilla. Maecenas mollis mollis purus, sit amet elementum lacus ultrices ut. Nunc rhoncus nisi ante, pharetra tincidunt lorem vulputate vel. Nulla suscipit eros in tortor pretium dignissim. Maecenas convallis, tortor ut vestibulum dictum, eros metus placerat nunc, vitae vulputate odio ante ut augue. Donec faucibus accumsan eros ut bibendum.
+
+<div>
+
+    <input type="checkbox" id="test"/>
+    <label for="test">Move</label>
+    <div class="square"></div>
+
+</div>
+
+Curabitur ut nulla cursus, laoreet nisl non, scelerisque ipsum. Aliquam sed tempus quam. Duis tincidunt lacinia magna, sit amet facilisis nunc. Proin tellus nulla, malesuada in dui et, ullamcorper mollis risus. Aenean non augue vel mauris tincidunt malesuada. Sed vel elit neque. Suspendisse quis sagittis massa. Maecenas condimentum orci erat. Nunc quis sollicitudin tellus. Nulla et mollis orci, sed sagittis lectus. Suspendisse suscipit aliquam nisl vel semper.
+
+Praesent elementum, libero ac facilisis mattis, lorem lectus pharetra felis, non venenatis nibh lorem non diam. Pellentesque non arcu bibendum, finibus turpis et, mollis diam. Curabitur laoreet placerat turpis ac tristique. Vestibulum venenatis auctor nisl, in mattis enim aliquet vitae. Praesent porta tincidunt sagittis. Donec laoreet lacus nec risus malesuada, a porttitor lectus dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent porta sem eget maximus pellentesque. Sed leo lorem, condimentum sed nisl eget, dignissim pulvinar leo. Ut id malesuada lectus.
+
+Pellentesque non pharetra sapien. Integer vel quam sagittis, aliquet nisi ut, auctor mi. Proin in semper ex. Morbi nibh lacus, feugiat id maximus sit amet, egestas vel sem. Fusce risus lorem, vestibulum quis venenatis sed, gravida id ipsum. Suspendisse potenti. Nunc auctor velit pharetra nisi fringilla vehicula sed id tellus. Cras mollis ullamcorper eros ut varius.
+
+Duis mauris orci, maximus at ornare et, tempor sed dui. Maecenas bibendum lorem diam, quis pellentesque odio aliquet vitae. Aliquam erat volutpat. Proin vitae mauris in ante sollicitudin molestie. Proin feugiat mollis nunc ut sodales. Quisque vel tempus dolor, nec eleifend dolor. In blandit dictum dolor, et sollicitudin elit posuere tempus. Sed vulputate lobortis elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In est risus, tristique eget nunc non, hendrerit pharetra justo. Curabitur lorem tortor, ornare ac varius et, gravida et orci. Aenean consequat neque sit amet risus feugiat fermentum. Sed pharetra nunc justo, ut laoreet lectus elementum vitae. In laoreet vulputate velit vel consectetur. Ut nec eleifend velit.
+
+Morbi vulputate nisl erat, eget maximus libero fermentum eget. Integer sed laoreet augue, quis posuere elit. Ut nec pharetra velit. Aliquam eu laoreet sem, nec efficitur eros. Etiam consequat dolor tortor, ut mattis dolor auctor id. Integer fringilla laoreet odio, in blandit neque tempor mattis. Pellentesque sit amet tortor nec metus tristique porttitor et at dui. Ut tincidunt ex nec risus commodo, quis laoreet odio sagittis. Nam vulputate nisl sed mauris accumsan, at porta nunc lobortis. Mauris quis justo ac dolor consectetur tincidunt ut elementum lorem.
+
+Aenean a est sapien. In ultricies mollis enim, ac placerat lectus dignissim nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum tincidunt convallis metus, ut faucibus ex convallis et. Nulla leo nunc, vulputate a risus rutrum, porta consectetur risus. Maecenas ut justo sit amet velit efficitur fringilla et ut nisi. Curabitur feugiat pellentesque convallis. Quisque rutrum urna vehicula libero condimentum eleifend. Praesent tempus tellus nec molestie posuere. Proin turpis lacus, efficitur eu quam nec, semper molestie turpis. Curabitur semper erat eget felis lobortis, ac laoreet tortor consectetur. In hac habitasse platea dictumst. Nam turpis dolor, vulputate id nisl non, laoreet ultricies lorem. Suspendisse rhoncus quam id accumsan aliquam. Suspendisse efficitur est non ipsum facilisis, ac porta urna congue. Nulla et est quis quam sodales dignissim.
+
+In pulvinar justo vel lacus consectetur ornare. Aliquam vulputate fermentum nulla, id interdum justo suscipit sit amet. Vestibulum efficitur, tellus a mattis rutrum, urna diam vehicula nibh, sed mollis neque ligula auctor dui. Aenean eget ultricies nibh. Mauris imperdiet urna eu faucibus accumsan. Sed sit amet aliquam elit, maximus rhoncus libero. Vivamus ut justo in sem posuere congue congue a risus. Cras vel velit lacinia, sollicitudin lacus eu, euismod nulla. Integer porta mattis orci bibendum vestibulum. Aenean enim sem, posuere a dictum eget, elementum ut est. Quisque at aliquam urna, sed aliquam leo. Vestibulum facilisis felis nec libero accumsan gravida.
+
+Sed fermentum nunc eget bibendum varius. Nam imperdiet libero ante, porta efficitur justo congue sed. Suspendisse pellentesque, felis ac laoreet feugiat, metus nunc vestibulum est, in vulputate felis nulla nec urna. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam quis est semper, euismod risus vitae, finibus enim. Suspendisse ac nibh mattis, tempor tortor ac, aliquam ante. Aenean sed dignissim ligula, eu vestibulum lacus. Nullam tincidunt metus diam, id lacinia justo dignissim a.
+
+</body>
+</html>

@@ -16,10 +16,13 @@
         div:hover {
             background-color: green;
             transition: background-color 500ms ease 1s; /* MDN w3schools */
+            /* all instead of property name --> */
         }
 
         div.move {
             position: absolute;
+            left: 50px;
+            transition: left 500ms ease;
         }
 
         /* CSS3 :checked */
@@ -28,13 +31,23 @@
             display: none;
         }
 
-        input[type="checkbox"] + label {
-            background-color: red;
+        input[type="checkbox"]:checked + label + div {
+            left: 300px;
         }
 
-        input[type="checkbox"]:checked + label {
-            background-color: green;
+        input[type="checkbox"] + label {
+            font: 200 1em 'Helvetica Neue', 'Segoe UI', 'Droid Sans', 'Helvetica';
+            outline: none;
+            border: 1px solid #eee;
+            padding: 0.35em 0.5em;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 0.35em 0.5em;
+            border-radius: 0.35em;
+
+            cursor: pointer;
         }
+
+
 
 
 
@@ -60,9 +73,11 @@
 
     </div>
 
-    <button>Move</button>
+
     <input type="checkbox" id="move"/>
-    <label for="move">Moving?</label>
+    <label for="move">
+        Move
+    </label>
     <div class="move"></div>
 
 </body>
